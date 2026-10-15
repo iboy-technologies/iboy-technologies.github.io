@@ -1,0 +1,17 @@
+{
+  "name": "iBoy Technologies",
+  "short_name": "iBoy",
+  "description": "Embedded systems and AI solutions for modern real estate.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#091d2a",
+  "theme_color": "#0a4d78",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
