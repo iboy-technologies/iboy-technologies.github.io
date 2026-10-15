@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="iBoy Technologies favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F6FAD"/>
+      <stop offset="1" stop-color="#0A4D78"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="16" y1="14" x2="48" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#73F6FF"/>
+      <stop offset="1" stop-color="#7BE7A3"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+  <rect x="12" y="12" width="40" height="40" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <path d="M24 18V45" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 32H34C38 32 40 30 40 27C40 24 38 22 34 22H24" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 32H35C39 32 41 35 41 38C41 41 39 44 35 44H24" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 18L49 25" stroke="rgba(255,255,255,0.72)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M42 45L49 38" stroke="rgba(255,255,255,0.72)" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
