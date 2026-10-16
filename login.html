@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBOY Technologies</title>
+    <link rel="stylesheet" href="templatemo-prism-flux.css">
+    <link rel="icon" href="images/favicon.jpg">
+   
+<!-- 
+
+LETS begin the dan the man saga
+made by DAn1el On Earth 16
+
+-->
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <div class="logo-prism">
+                        <div class="prism-shape"></div>
+                    </div>
+                </div>
+                <span class="logo-text">
+                    <span class="prism">iBOY</span>
+                    <span class="flux">Technologies</span>
+                </span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#stats" class="nav-link">Metrics</a></li>
+                <li><a href="#skills" class="nav-link">Arsenal</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+            </ul>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        
+    </section>
+
+    <section class="login" id="login">
+        <form id="uf">
+        <div class="form-group">
+            <h3 class="philosophy-headline">Login</h2>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user" required></input>
+            <label for="pass">Password</label>
+            <input class="philosophy-pillars" type="password" id="pass" name="password" required></input>
+            <button type="submit" class="submit-btn">login</button>
+        </div>
+        </form>
+    </section>
+    
+<script>
+    const passkey = document.getElementById('pass');
+    const form = document.getElementById('uf');
+
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+       const pwd = passkey.value.trim()
+        if (pwd == 'init_Bravo1') {
+            try {
+                const response = await fetch('pegasus.html', {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' },
+		            mode: 'cors',
+		            credentials: 'same-origin'});
+                
+            }
+            catch (err) {
+        
+            } 
+        } else {
+            try {
+                const response = await fetch('index.html', {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' },
+		            mode: 'cors',
+		            credentials: 'same-origin'});
+        }
+        catch (err) {
+        }}
+        
+    });
+</script>
+
+</body>
+</html>
